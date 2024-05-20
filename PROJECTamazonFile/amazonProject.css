@@ -1,0 +1,431 @@
+*{
+	margin:0;
+	font-family:arial;
+	
+}
+
+.border{
+	border:1px solid transparent;
+}
+.border:hover{
+	border:1px solid white;
+	/* border-radius:3px; */
+}
+
+.header{
+	width:100%;
+	height:70px;
+	color:white;
+	background-color:#131921;
+	display:flex;
+	align-items:center;
+	justify-content:space-evenly;
+	
+}
+
+/* isse apan 'logo' ko ek dimension/location provide ki he  */
+
+.header-logo{
+	
+	height:70px;
+	width:140px;
+	
+}
+.header-main-logo{
+	background-image:url("amazonLogo.jpg");
+	/* margin-right:20px; */
+	/* margin-left:20px; */
+	background-size:cover;
+	width:100%;
+	height:60px;
+	
+	
+}
+.header-location{
+	color:white;
+	height:50px;
+	width:60px;
+	/* border-top:30px; */
+    /* border-right:20px ; */
+    /* border-left:30px ; */
+    /* border-bottom:20px ; */
+	margin-right:20px;
+	margin-left:20px;
+	padding-right:20px;
+	padding-left:20px;
+	padding-top:20px;
+	padding-bottom:3px;
+	font-size:12px;
+}
+p{
+	text-transform:bold;
+	font-size:16px;
+}
+
+.Oborder:hover{
+	border:1px solid coral;
+}
+.header-search{
+	margin:0;
+	height:35px;
+	display:flex;
+}
+.search-select{
+	background-color:#f2f2f2;
+	border-top-left-radius:4px;
+	border-bottom-left-radius:4px;
+	width:50px;
+	
+}
+.search{
+	width:700px;
+}
+.search-button{
+	width:40px;
+	background-color:coral;
+	/*height:39;*/
+	border-top-right-radius:4px;
+	border-bottom-right-radius:4px;
+}
+
+
+
+
+
+
+.header-language{
+	width:80px;
+	padding-right:26px;
+	padding-left:20px;
+	padding-top:26px;
+	padding-bottom:24px;
+	margin-left:20px;
+    margin-right:20px;
+}
+
+
+
+.header-account{
+	padding-right:20px;
+	padding-left:20px;
+	padding-top:19px;
+	padding-bottom:20px;
+	font-size:12px;
+	margin-right:20px;
+	margin-left:20px;
+	/* font-weight:700rem; */
+}
+.header-returns{
+	/* font-weight:700rem; */
+	padding-right:20px;
+	padding-left:20px;
+	padding-top:19px;
+	padding-bottom:20px;
+	font-size:12px;
+	margin-right:20px;
+	margin-left:20px;
+}
+.cart{
+	font-size:12px;
+	text-align:center;
+	
+	
+}
+.header-cart{
+	align-items:top;
+	font-size:40px;
+	
+}
+.header2{
+	width:100%;
+	height:40px;
+	background-color:#232f3e;
+	display:flex;
+	align-items:center;
+	justify-content:space;
+	color:white;
+}
+.header3{
+	
+	margin-right:13px;
+	margin-left:13px;
+}
+a{
+	text-decoration:none;
+}
+
+
+.bgimg{
+	
+	background-image:url("amazonBgimg.jpg");
+	position:relative;
+	width:100%;
+	height:600px;
+	background-size:cover;
+	display:flex;
+	justify-content:center;
+	align-items:flex-end;
+	animation:slider 20s 2 step-end;
+	 
+	 /* slider kewal nam diya gaya he  */
+	 /* 20s jo time diya he vo sare images ki ek complete cycle ka total time he yani 4sec each   */
+}
+
+@keyframes slider{
+	0%{background-image:url("amazonBgimg.jpg"); background-size:100% 100%;}
+	25%{background-image:url("amazonBgimg2.jpg");  background-size:100% 100%;}
+	50%{background-image:url("amazonBgimg3.jpg");  background-size:100% 100%;}
+	75%{background-image:url("amazonBgimg4.jpg");  background-size:100% 100%;}
+	100%{background-image:url("amazonBgimg5.jpg");  background-size:100% 100%;}
+}
+
+
+#statement{
+    justify-content:center;
+	display:flex;
+	align-items:center;
+	width:90%;
+	margin-bottom:200px;
+	font-size:16px;
+    height:30px;
+	color:black;
+	background-color:#f2f2f2;
+	
+}
+.shopSection{
+	position:relative;
+	top: -140;
+	display:flex;
+	justify-content: space-evenly;
+	height:1000px;
+	flex-wrap: wrap;
+}
+.shop{
+	margin-bottom: 20px;
+	background-color:#ebeced;
+	padding-top:20px;
+	padding-left:20px;
+	font-size:24px;
+	font-weight:bold;
+	border:0 solid black;
+	height:340px;
+	width:370px;
+}
+
+#seeMore{
+	height:40px;
+	color:blue;
+	text-decoration:none;
+	font-size:16px;
+	
+	
+}
+
+
+#beautyPicks{
+	background-image:url("sellIMG1.jpg");
+	display:flex;
+	justify-content:center;
+	height:70%;
+	width:90%;
+	background-size:cover;
+	margin-top:10px;
+	margin-bottom:10px;
+	
+	
+}
+#Gym{
+	background-image:url("Gym.jpg");
+	display:flex;
+	justify-content:center;
+	height:70%;
+	width:90%;
+	background-size:cover;
+	margin-top:10px;
+	margin-bottom:10px;
+	
+	
+}
+#Essentials{
+	background-image:url("Health.jpg");
+	display:flex;
+	justify-content:center;
+	height:70%;
+	width:90%;
+	background-size:cover;
+	margin-top:10px;
+	margin-bottom:10px;
+	
+	
+}
+#WFashion{
+	background-image:url("Fashion.jpg");
+	display:flex;
+	justify-content:center;
+	height:70%;
+	width:90%;
+	background-size:cover;
+	margin-top:10px;
+	margin-bottom:10px;	
+}
+#MFashion{
+	background-image:url("Men Fashion.jpg");
+	display:flex;
+	justify-content:center;
+	height:70%;
+	width:90%;
+	background-size:cover;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#FootWear{
+	background-image:url("Foot Wear.jpg");
+	display:flex;
+	justify-content:center;
+	height:70%;
+	width:90%;
+	background-size:cover;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#Pets{
+	background-image:url("Pets.jpg");
+	display:flex;
+	justify-content:center;
+	height:70%;
+	width:90%;
+	background-size:cover;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#Electronics{
+	background-image:url("Electronics.jpg");
+	display:flex;
+	justify-content:center;
+	height:70%;
+	width:90%;
+	background-size:cover;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#ToysUnder{
+	background-image:url("Toys Under $30.jpg");
+	display:flex;
+	justify-content:center;
+	height:70%;
+	width:90%;
+	background-size:cover;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#ADD{
+	background-image:url("ADD.jpg");
+	display:flex;
+	justify-content:center;
+	height:70%;
+	width:90%;
+	background-size:cover;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#Home{
+	background-image:url("Home & Kitchen Under.jpg");
+	display:flex;
+	justify-content:center;
+	height:70%;
+	width:90%;
+	background-size:cover;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#TopDeal{
+	background-image:url("Top Deal.jpg");
+	display:flex;
+	justify-content:center;
+	height:70%;
+	width:90%;
+	background-size:cover;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+
+
+footer{
+	
+	
+}
+
+.BackToTop{
+	background-color:#485769;
+	width:100%;
+	height:50px;
+	margin-top:20px;
+	padding-top:23px;
+	color:FFFFFF;
+	text-align:center;
+	align-items:center;
+	
+}
+.hr{
+	width:100%;
+	height:500px;
+	background-color:#232f3e;
+	color:white;
+	
+}
+.hrimg{
+	width:100%;
+	height:100px;
+	background-color:#232f3e;
+	justify-content:center;
+	display:flex;
+	bottom:100px;
+	
+}
+
+#hrimg{
+	
+	width:170px;
+	height:70px;
+	background-image:url('amazonLogo.jpg');
+	background-size:cover;
+}
+
+
+.knowUs{
+	display:flex;
+	padding-top:100px;
+	justify-content:space-evenly;
+	line-height:30px;
+}
+.copyright{
+	background-color:#0f1111;
+	width:100%;
+	height:600px;
+}
+.GetToKnowUs{
+	font-weight:bolder;
+	font-size:20px;
+	line-height:50px;
+}
+
+.makeMoneyWithUs{
+	font-weight:bolder;
+	font-size:20px;
+	line-height:50px;
+}
+
+.AmazonPaymentProducts{
+	font-weight:bolder;
+	font-size:20px;
+	line-height:50px;
+}
+
+.LetUsHelpYou{
+	font-weight:bolder;
+	font-size:20px;
+	line-height:50px;
+}
+
